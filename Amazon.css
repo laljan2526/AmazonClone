@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+body{
+    background-color: #ced1cf;
+ 
+}
+.firstDiv{
+    width: 100%;
+    height: 65px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    
+
+}
+
+#img1{
+    position: relative;
+    left: 20px;
+}
+#img1:hover{
+    border: 1px solid white;
+}
+#inp1{
+    width: 640px;
+    height: 45px;
+    border-radius: 5px;
+    border: 3px solid orange;
+    
+}
+.select0{
+    height: 43px;
+    margin-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:rgb(244, 242, 218);
+    color:#212121;
+   position: relative;
+   left: 95px;
+   border-left: 1px solid cornsilk;
+   z-index: 1;
+   border: 
+   1px solid orange;
+   
+    
+}
+
+.select0:hover{
+    border: 1px solid orange;
+}
+.select1{
+    height: 36px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color:#0F1111;
+    color: white;
+    border: none;
+   
+}
+.loc{
+    color: white;
+    font-size: 13px;
+   position: relative;
+   left: 60px;
+}
+.fa-light{
+    color: white;
+}
+
+#locPic{
+    position: relative;
+    bottom:0px;
+    left: 40px;
+    color: white;
+}
+.signin ,a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.signin{
+    margin-left: 15px;
+    font-size: small;
+}
+.signList{
+    height: 15px;
+    width: 128px;
+    margin-right: 20px;
+    border: none;
+    color: white;
+    background-color:#0F1111;
+}
+
+.signP{
+    /* margin-left: 10PX; */
+    margin-bottom: 3px;
+}
+
+.orders{
+    color: white;
+}
+
+.navOp{
+
+    display: flex;
+    background-color: #232f3e;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: 500;
+    height: 40px;
+    font-size: 14px;
+
+}
+
+.navHover{
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2px;
+
+}
+.navHover:hover{
+    border: 1px solid white;
+    
+}
+
+.cart{
+    font-size: 17px;
+    color: white;
+}
+
+.carts{
+    margin-left: 60px;
+}
+
+.backPic{
+    width: 100%;
+    height: 350px;
+}
+
+
+.cardsP{
+
+     display: flex;
+    /* flex-direction: row;  */
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 315px;
+    height: 350px;
+    background-color: white;
+    border-radius: 2px;
+    text-align: start;
+    padding-top: 12px;
+    padding-right: 10px;
+   
+}
+.imgs{
+    
+    padding: 5px 0;
+}
+
+.cardsP{
+background:-moz-radial-gradient(-moz-radial-gradient);
+}
+h5{
+    color: #3a80d5;
+}
+.div1Row{
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow:scroll;
+    width:1350px;
+  
+}
+.rowImgs{
+    width: 200px;
+    height: 200px;
+}
+.artic{
+    
+}
